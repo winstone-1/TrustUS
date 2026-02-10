@@ -20,16 +20,13 @@ body {
     overflow-x: hidden;
 }
 
-
-
-.nav-container {
+.navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
+    justify-content: space-between;
+
 }
+
 
 .nav-menu {
     display: flex;
@@ -43,6 +40,17 @@ body {
     margin: 0 1.5rem;
     font-weight: 500;
     transition: var(--transition);
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.search-container {
+    margin-right: auto;
+    position: relative;
+    padding: 8px 15px;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
 }
 
 .nav-link:hover {
@@ -147,8 +155,6 @@ body {
 }
 
  
-
-
 .logo-text {
     font-size: 1.2rem;
     font-weight: 700;
@@ -166,7 +172,10 @@ body {
 }
 
 
-
+.container {
+    display: block;
+    margin-top: 50px;
+}
 
 
 .main-footer {
