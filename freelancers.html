@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancers Profile</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="freelancers.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
         rel="stylesheet">
@@ -13,7 +14,7 @@
 </head>
 <body>
     
-     <nav class=" navbar fixed top-0 left-0 w-full z-50 bg-blue-600 backdrop-blur-md border-b border-stone-100 ">
+    <nav class=" navbar fixed top-0 left-0 w-full z-50 bg-stone-800 backdrop-blur-md border-b border-stone-100 ">
             <div class="max-w-6xl mx-auto px-9">
                 <div class="flex justify-between items-center h-20">
                     
@@ -23,12 +24,11 @@
                             <span class="logo-text">Trust<span class="">Us</span></span>
                         </a>
 
-                        <ul class="hidden md:flex items-center gap-16 ml-12 mr-20px font-bold text-white-600">
-                            <li><a href="index.html" class="text-black">Home</a></li>
-                            <li><a href="verified.html" class="hover:text-black">Get Verified</a></li>
-                            <li><a href="freelancers.html" class="hover:text-black">Freelancers</a></li>
-                             <li><a href="search.html" class="hover:text-black">Search</a></li>
-                              <li><a href="about.html" class="hover:text-black">About </a></li>
+                        <ul class="hidden md:flex items-center gap-16 ml-12 mr-20px font-bold text-stone-600">
+                            <li><a href="index.html" class="text-cyan-500">Home</a></li>
+                            <li><a href="verified.html" class="hover:text-cyan-500">Get Verified</a></li>
+                            <li><a href="freelancers.html" class="hover:text-cyan-500">Freelancers</a></li>
+                              <li><a href="about.html" class="hover:text-cyan-500">About Us</a></li>
                         </ul>
 
                         <div class="search-container">
@@ -56,10 +56,11 @@
                     <div
                         class="max-h-0 overflow-hidden peer-checked:max-h-64 transition-all duration-300 md:hidden bg-white border-t border-stone-100">
                         <ul class="flex flex-col gap-4 p-6 font-bold text-stone-600">
-                            <li><a href="index.html" class="text-green-600">Home</a></li>
-                            <li><a href="sign.html">Sign In</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="freelancers.html">For freelancers</a></li>
+                            <li><a href="index.html" class="text-black">Home</a></li>
+                            <li><a href="verified.html" class="hover:text-black">Get Verified</a></li>
+                            <li><a href="freelancers.html" class="hover:text-black">Freelancers</a></li>
+                              <li><a href="about.html" class="hover:text-black">About Us</a></li>
+                        
                         </ul>
                     </div>
 
@@ -67,13 +68,32 @@
                 </div>
         </nav>
 
+        <main>
+            <section class="filters">
+        <div class="container">
+            <div>
+                <label>Category:</label>
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Headphones</button>
+                <button class="filter-btn">Laptops</button>
+                <button class="filter-btn">Phones</button>
+            </div>
+            <div>
+                <label>Sort by:</label>
+                <select>
+                    <option>Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest</option>
+                </select>
+            </div>
+        </div>
+    </section>
+        </main>
 
 
 
-
-
-
-    <footer class="bg-blue-900">
+    <footer class="bg-stone-800 mt-4">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
