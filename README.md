@@ -37,11 +37,11 @@ A curated marketplace connecting businesses with elite independent talent — co
 
 ## Screenshots
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<assets\screenshot 1.png>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 1.png>)>)))}
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<assets\screenshot 2.png>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 2.png>)>)))}
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<assets\screenshot 3.png>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 3.png>)>)))}
 ## Live Link
 [see my website](https://github.com/winstone-1/TrustUS.git)
 
