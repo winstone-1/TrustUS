@@ -37,7 +37,7 @@ A curated marketplace connecting businesses with elite independent talent — co
 
 ## Screenshots
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 1.png>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<assets\jeremy-bishop.jpg>)>)))}
 
 !(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 2.png>)>)))}
 
