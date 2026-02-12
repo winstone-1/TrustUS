@@ -19,21 +19,20 @@
                     
                         <a href="index.html" class="logo">
                             <img src="assets\logo.png" alt="TrustUs Logo" class="logo-img">
-                            <br>
-                            <span class="logo-text">Trust<span class="">Us</span></span>
+                          <br>
                         </a>
 
-                        <ul class="hidden md:flex items-center gap-16 ml-12 mr-20px font-bold text-stone-600">
-                            <li><a href="index.html" class="text-cyan-500"><ion-icon name="home-outline"></ion-icon>Home</a></li>
-                            <li><a href="verified.html" class="hover:text-cyan-500">Get Verified</a></li>
-                            <li><a href="freelancers.html" class="hover:text-cyan-500"><ion-icon name="people-outline"></ion-icon>Freelancers</a></li>
-                              <li><a href="about.html" class="hover:text-cyan-500"><ion-icon name="laptop-outline"></ion-icon>About </a></li>
+                        <ul class="hidden md:flex items-center gap-16 ml-12 mr-20px font-bold text-white">
+                            <li><a href="index.html" class="text-cyan-500">Home</a></li>
+                            <li><a href="verified.html" class="hover:text-cyan-500">Verified</a></li>
+                            <li><a href="freelancers.html" class="hover:text-cyan-500">Freelancers</a></li>
+                              <li><a href="about.html" class="hover:text-cyan-500">About </a></li>
                         </ul>
 
                         <div class="search-container">
                             <div class="w-[300px] pt-2">
                                 <button type="button"
-                                    class="flex h-10 w-full items-center justify-between rounded-full  bg-gray-200 px-3 text-sm text-slate-700">
+                                    class="flex h-10 w-full items-center justify-between rounded-full  bg-gray-200 px-1 text-sm text-slate-950 cursor-text">
                                     <span class="">Type to search...</span>
                                     <ion-icon name="search-outline"></ion-icon>
                                 </button>
@@ -54,7 +53,7 @@
                     <input type="checkbox" id="mobile-menu" class="peer hidden">
                     <div
                         class="max-h-0 overflow-hidden peer-checked:max-h-64 transition-all duration-300 md:hidden bg-white border-t border-stone-100">
-                        <ul class="flex flex-col gap-4 p-6 font-bold text-stone-600">
+                        <ul class="flex flex-col gap-4 p-6 font-bold text-stone-900">
                             <li><a href="index.html" class="text-black">Home</a></li>
                             <li><a href="verified.html" class="hover:text-black">Get Verified</a></li>
                             <li><a href="freelancers.html" class="hover:text-black">Freelancers</a></li>
@@ -154,18 +153,19 @@
 
 
 
-    <footer class="bg-stone-800">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class="md:flex md:justify-between">
+    <footer class="bg-stone-800 ">
+    <div class="mx-auto w-full max-w-6xl ">
+          <div class="grid grid-cols-2 gap-6 sm:gap-6 sm:grid-cols-3 ">
           <div class="mb-6 md:mb-0">
               <a href="" class="flex items-center">
-                  <img src="assets\logo.png" alt="">
-                  <span class="text-heading self-center text-2xl font-semibold whitespace-nowrap">Trust-Us</span>
+                  <img src="assets\logo.png" alt="logo">
+                  
               </a>
-          </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+         </div>
+        
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Resources</h2>
+                  <div class="grid grid-cols-1 gap-8 md:gap-6 :grid-cols-4 ">
+                  <h2 class="mb-6 mt-8 text-sm font-semibold text-heading uppercase">Resources</h2>
                   <ul class="text-body font-medium">
                       <li class="mb-4">
                           <a href="" class="hover:underline">Browse Jobs</a>
@@ -176,8 +176,10 @@
                       
                   </ul>
               </div>
+              </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Follow us</h2>
+                <div class="grid grid-cols-1 grid-cols-1">
+                  <h2 class="mb-4  text-sm font-semibold text-heading uppercase">Follow us</h2>
                   <ul class="text-body font-medium">
                       <li class="mb-4">
                           <a href="https://github.com/winstone-1/TrustUS.git" class="hover:underline ">Github</a>
@@ -186,9 +188,9 @@
                           <a href="#" class="hover:underline">Discord</a>
                       </li>
                   </ul>
-              </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Legal</h2>
+             
+              <div class="">
+                  <h2 class="mb-6 mr-20p text-sm font-semibold text-heading uppercase">Legal</h2>
                   <ul class="text-body font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
@@ -201,7 +203,7 @@
           </div>
       </div>
       <hr class="my-6 border-default sm:mx-auto lg:my-8" />
-      <div class="sm:flex sm:items-center sm:justify-between">
+      <div class="sm:flex sm:items-center sm:justify-between mb-6">
           <span class="text-sm text-body sm:text-center">© 2026 <a href="" class="hover:underline">Trust-Us</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
@@ -229,5 +231,7 @@
       </div>
     </div>
 </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
