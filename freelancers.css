@@ -1,52 +1,47 @@
-.filters {
-    
-    padding: 20px 0;
-    margin-bottom: 20px;
-    margin-top: 15px;
+.section-title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin: var(--space-lg) 0 var(--space-md);
+    color: var(--charcoal);
 }
 
-.filters-container {
-    display: flex;
-    justify-content: space-between;
+.filter-group h3 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: var(--walnut);
+}
+
+.filter-options label {
+    display: inline-flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 12px;
-}
-
-.filters label {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.filter-btn {
-    background-color:black ;
-    border: 2px solid black;
-    padding: 8px 16px;
-    margin-right: 8px;
+    gap: 0.3rem;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px;
+    padding: 0.3rem 0.6rem;
+    background: #E5E7EB;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: var(--transition);
 }
 
-.filter-btn:hover {
-    background-color: #3498db;
-    color: white;
-    border-color: #3498db;
+.filter-options label:hover {
+    border-color: var(--primary);
 }
 
-.filter-btn.active {
-    background-color: #3498db;
-    color: black;
-    border-color: #3498db;
+.filter-options input[type="checkbox"]:checked + span {
+    color: var(--primary);
+    font-weight: 500;
 }
 
-.filters select {
-    padding: 8px 12px;
-    border: 2px solid black;
-    border-radius: 5px;
-    font-size: 14px;
+.sort-select {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100%;
+    font-family: var(--font-body);
+    background: white;
 }
+
 
 .container {
     margin-top: 50px;

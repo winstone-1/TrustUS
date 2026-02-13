@@ -37,11 +37,11 @@ A curated marketplace connecting businesses with elite independent talent — co
 
 ## Screenshots
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<assets\jeremy-bishop.jpg>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<>)>)))}
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 2.png>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<>)>)))}
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<screenshot 3.png>)>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<>)>)))}
 ## Live Link
 [see my website](https://github.com/winstone-1/TrustUS.git)
 

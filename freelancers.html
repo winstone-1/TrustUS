@@ -69,28 +69,32 @@
 
         <main class="max-w-6xl mx-auto ">
 
-            <section class="filters bg-slate-800">
-        <div class="filters-container mt-12 px-12">
-            <div>
-                <label class="">Category:</label>
-                <button class="filter-btn active">All</button>
-                <button class="filter-btn">Creative and Designs</button>
-                <button class="filter-btn">Writing and Translation</button>
-                <button class="filter-btn">Digital marketing</button>
-                <button class="filter-btn">Video and Audio</button>
-                <button class="filter-btn">Sales</button>
+             <section class="filters-section">
+            <h2 class="section-title">Mid-Century Modern Collection</h2>
+            <div class="filters">
+                <div class="filter-group">
+                    <h3>Category</h3>
+                    <div class="filter-options">
+                        <label class="text-cyan-200"><input type="checkbox" checked> All</label>
+                        <label class="text-black"><input type="checkbox"> Creative and Designs</label>
+                        <label class="text-black"><input type="checkbox"> Sales</label>
+                        <label class="text-black"><input type="checkbox"> Audio and Video</label>
+                        <label class="text-black"><input type="checkbox"> Writing and translation</label>
+                        <label class="text-black"><input type="checkbox"> Digital Marketing</label>
+                        <label class="text-black"><input type="checkbox"> Tech</label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>Sort By</h3>
+                    <select class="sort-select">
+                        <option class="text-black">Skills</option>
+                        <option class="text-black">Rates/hr</option>
+                        <option class="text-black">Location</option>
+                        <option class="text-black">Reviews</option>
+                    </select>
+                </div>
             </div>
-            <div>
-                <label class="select">Sort by:</label>
-                <select>
-                    <option class="text-stone-800">skills</option>
-                    <option class="text-stone-800">location</option>
-                    <option class="text-stone-800">Rates/hr</option>
-                    <option class="text-stone-800">Reviews</option>
-                </select>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
 
@@ -493,8 +497,36 @@
 </div>
 </section>
 
- </main>
+<section class="container mx-auto py-12 px-6">
+    <h2 class="text-2xl font-bold text-center text-black mb-6">Inquire a Freelancer</h2>
+    <form class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-8 space-y-6">
+      <div>
+        <label class="block font-semibold mb-2 text-black">Full Name</label>
+        <input type="text" class="w-full border p-3 rounded" placeholder="Enter your name">
+      </div>
+      <div>
+        <label class="block font-semibold mb-2 text-black">Email</label>
+        <input type="email" class="w-full border p-3 rounded" placeholder="Enter your email">
+      </div>
+      <div>
+        <label class="block font-semibold mb-2 text-black ">Job Category</label>
+        <select class="w-full border p-3 rounded">
+          <option class="text-black">Sales</option>
+          <option class="text-black">Creative Design</option>
+          <option class="text-black">Video and Audio</option>
+        </select>
+      </div>
+      <div>
+        <label class="block font-semibold mb-2 text-black"> Work Details</label>
+        <textarea class="w-full border p-3 rounded" rows="4" placeholder="Describe your Personalized Request"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-yellow-500 text-white px-6 py-3 rounded font-semibold hover:bg-yellow-600">
+        Submit Inquiry
+      </button>
+    </form>
+  </section>
 
+</main>
 
 
      <footer class="bg-stone-800">
