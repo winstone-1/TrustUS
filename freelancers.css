@@ -1,7 +1,7 @@
 .filters {
     
     padding: 20px 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 15px;
 }
 
@@ -31,7 +31,7 @@
 
 .filter-btn:hover {
     background-color: #3498db;
-    color: gray;
+    color: white;
     border-color: #3498db;
 }
 
